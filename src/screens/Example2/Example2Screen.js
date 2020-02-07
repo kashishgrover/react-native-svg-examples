@@ -1,12 +1,12 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import CustomVector from './CustomVector';
 import NetworkSvg from './NetworkSvg';
 import XmlSvg from './XmlSvg';
 
 const Example2Screen = () => {
   return (
-    <View style={styles.container}>
+    <ScrollView>
       <View style={styles.section}>
         <Text style={styles.title}>1. Custom Vector</Text>
         <CustomVector />
@@ -19,15 +19,11 @@ const Example2Screen = () => {
         <Text style={styles.title}>3. XML Strings</Text>
         <XmlSvg />
       </View>
-    </View>
+    </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 16,
-  },
   title: {
     fontSize: 24,
     marginBottom: 8,

@@ -9,7 +9,9 @@ const Example1Screen = () => {
   return (
     <View style={styles.container}>
       <FlatList
-        ListHeaderComponent={<Text style={styles.title}>Using IcoMoon</Text>}
+        ListHeaderComponent={
+          <Text style={styles.title}>{'Using IcoMoon &\nreact-native-vector-icons'}</Text>
+        }
         data={icoMoonConfig.icons}
         renderItem={({ item }) => (
           <View style={styles.iconContainer}>

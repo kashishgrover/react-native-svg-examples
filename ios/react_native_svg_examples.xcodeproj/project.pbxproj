@@ -18,6 +18,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* react_native_svg_examplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* react_native_svg_examplesTests.m */; };
 		544E689D4B725513C9460EEF /* libPods-react_native_svg_examples-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 377723DAC6F45312C122292F /* libPods-react_native_svg_examples-tvOSTests.a */; };
 		6E6D6169DB7096F579D0102F /* libPods-react_native_svg_examples-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FCADB3B72ACCA8B3B062F7 /* libPods-react_native_svg_examples-tvOS.a */; };
+		A82DD4FC23EDFFA50045F8B4 /* IcoMoon-Free.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A82DD4FB23EDFFA50045F8B4 /* IcoMoon-Free.ttf */; };
 		AD880D74219F0F7527BB98F0 /* libPods-react_native_svg_examplesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D75D696C529092BD229712BA /* libPods-react_native_svg_examplesTests.a */; };
 		B41300FC6F00E9903D262176 /* libPods-react_native_svg_examples.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7224759985B73EC911A74055 /* libPods-react_native_svg_examples.a */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		876F5FCFBCA1B942A744C813 /* Pods-react_native_svg_examples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_svg_examples.release.xcconfig"; path = "Target Support Files/Pods-react_native_svg_examples/Pods-react_native_svg_examples.release.xcconfig"; sourceTree = "<group>"; };
 		93FCADB3B72ACCA8B3B062F7 /* libPods-react_native_svg_examples-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_svg_examples-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9533FCD3A25AF23446D1AB62 /* Pods-react_native_svg_examplesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_svg_examplesTests.release.xcconfig"; path = "Target Support Files/Pods-react_native_svg_examplesTests/Pods-react_native_svg_examplesTests.release.xcconfig"; sourceTree = "<group>"; };
+		A82DD4FB23EDFFA50045F8B4 /* IcoMoon-Free.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "IcoMoon-Free.ttf"; path = "../src/assets/IcoMoon-Free.ttf"; sourceTree = "<group>"; };
 		A8A0D276686BB9264C450B9E /* Pods-react_native_svg_examples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_svg_examples.debug.xcconfig"; path = "Target Support Files/Pods-react_native_svg_examples/Pods-react_native_svg_examples.debug.xcconfig"; sourceTree = "<group>"; };
 		B3A40402EB78D532F997331C /* Pods-react_native_svg_examples-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react_native_svg_examples-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-react_native_svg_examples-tvOSTests/Pods-react_native_svg_examples-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D75D696C529092BD229712BA /* libPods-react_native_svg_examplesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react_native_svg_examplesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,7 +163,6 @@
 				F0D4BEFC5E7D8E229F9D3A58 /* Pods-react_native_svg_examplesTests.debug.xcconfig */,
 				9533FCD3A25AF23446D1AB62 /* Pods-react_native_svg_examplesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,6 +176,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				A82DD4FB23EDFFA50045F8B4 /* IcoMoon-Free.ttf */,
 				13B07FAE1A68108700A75B9A /* react_native_svg_examples */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* react_native_svg_examplesTests */,
@@ -309,6 +311,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -337,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82DD4FC23EDFFA50045F8B4 /* IcoMoon-Free.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);

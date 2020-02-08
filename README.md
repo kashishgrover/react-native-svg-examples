@@ -5,4 +5,4 @@
 3. Compile time transformation to [`react-native-svg`](https://github.com/react-native-community/react-native-svg) React components using [`react-native-svg-transformer`](https://github.com/kristerkari/react-native-svg-transformer)
 4. Compile time transformation to PNG assets using [`react-native-svg-asset-plugin`](https://github.com/aeirola/react-native-svg-asset-plugin)
 
-Note: To view Example 3, you must checkout `example3` branch of this project
+Note: To view Example 4, you must checkout `master` branch of this project

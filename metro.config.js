@@ -15,17 +15,3 @@ module.exports = (async () => {
     },
   };
 })();
-
-// Uncomment the following for Example 4 - react-native-svg-asset-plugin
-// module.exports = {
-//   transformer: {
-//     assetPlugins: ['react-native-svg-asset-plugin'],
-//     svgAssetPlugin: {
-//       pngCacheDir: '.png-cache',
-//       scales: [1, 2, 3],
-//       output: {
-//         compressionLevel: 9,
-//       },
-//     },
-//   },
-// };

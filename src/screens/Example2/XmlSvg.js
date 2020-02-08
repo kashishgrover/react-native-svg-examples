@@ -36,11 +36,27 @@ const xmlWithCss = `
   </svg>
 `;
 
+const filterExample = `
+<svg width="500" height="100">
+  <defs>
+    <filter id="blurFilter3" y="-10" height="40" x="-10" width="150">
+      <feOffset in="SourceAlpha" dx="3" dy="3" result="offset3" />
+      <feGaussianBlur in="offset3" stdDeviation="3" result="blur3" />
+
+      <feBlend in="SourceGraphic" in2="blur3" x="-10" width="160" />
+
+    </filter>
+  </defs>
+  <ellipse cx="55" cy="60" rx="25" ry="15" style="stroke: none; fill: #0000ff;
+                filter: url(#blurFilter3);" />
+</svg>`;
+
 const XmlSvg = () => {
   return (
     <View style={styles.container}>
       <SvgXml xml={xml} width="64" height="64" />
       <SvgWithCss xml={xmlWithCss} width="64" height="64" />
+      <SvgXml xml={filterExample} width="64" height="64" />
     </View>
   );
 };

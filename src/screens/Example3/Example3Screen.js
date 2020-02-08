@@ -1,18 +1,17 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { ScrollView } from 'react-native';
+import FilterExample from './filter-example.svg';
+import Homer from './homer-simpson.svg';
+import Tiger from './tiger.svg';
 
 const Example3Screen = () => {
   return (
-    <View style={styles.container}>
-      <Text>Example3Screen</Text>
-    </View>
+    <ScrollView>
+      <FilterExample height={300} width={300} />
+      <Homer height={300} width={300} />
+      <Tiger height={300} width={300} />
+    </ScrollView>
   );
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
 
 export default Example3Screen;

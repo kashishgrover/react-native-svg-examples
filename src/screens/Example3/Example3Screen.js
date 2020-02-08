@@ -7,7 +7,7 @@ import Tiger from './tiger.svg';
 const Example3Screen = () => {
   return (
     <ScrollView>
-      <FilterExample height={300} width={300} />
+      <FilterExample />
       <Homer height={300} width={300} />
       <Tiger height={300} width={300} />
     </ScrollView>

@@ -1,10 +1,12 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet, Image } from 'react-native';
 
 const Example4Screen = () => {
   return (
     <View style={styles.container}>
-      <Text>Example4Screen</Text>
+      <Image source={require('./filter-example.svg')} />
+      <Image source={require('./homer-simpson.svg')} />
+      <Image source={require('./tiger.svg')} />
     </View>
   );
 };

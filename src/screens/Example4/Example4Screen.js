@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   icon: {
-    overlayColor: 'blue',
+    tintColor: '#ff0000',
     height: 64,
     width: 64,
   },
